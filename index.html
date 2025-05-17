@@ -4,15 +4,202 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>जय हनुमान | भक्तीमय वेबपेज</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+ 
   <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <style>
+        * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f8f8f8;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+.photo-container {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: auto;
+  border: 3px solid #f7f5f5;
+}
+
+.photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+    label {
+      font-size: 18px;
+      display: block;
+      margin: 10px 0;
+    }
+
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #555;
+    }
+
+    hr {
+      margin: 20px 0;
+    }
+
+    @media (max-width: 500px) {
+      .photo-container {
+        width: 120px;
+        height: 120px;
+      }
+
+      label {
+        font-size: 16px;
+      }
+
+      img[alt="Chat on WhatsApp"] {
+        width: 80px;
+      }
+    }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f2f2f2;
+            font-weight: 900;
+        }
+
+        .container {
+            max-width: 500px;
+            margin-top: 15px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        label, input {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        input[type="text"] {
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content:space-evenly;
+            margin-top: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        @media (max-width: 500px) {
+            button {
+                width: 48%;
+            }
+            #btn{
+                background-color: red;
+            
+            }
+        }
+        .rup{
+            color: red;
+        }
+        #output{
+            color: red;
+            font-weight:900;
+        }
+        .me{
+        background-color: black;
+        color: white;
+        border-radius: 50px;
+        width: 30px
+        justify-content:auto;
+        }
+     p{
+        font-weight: 900;
+    }
+    #bhav{
+        font-weight:900;
+    }
+    #shetra{
+        font-weight:900;
+    }
+    .photohu{
+        width: 50%;
+        border-radius: 5%;
+    }
+  </style>
 </head>
 <body class="bg-black text-white font-sans">
 
+    <div class="container">
+    <header>
+      <div class="photo-container">
+        <img class="photo" src="bhau.jpg" alt="bhausaheb sanap photo" />
+      </div>
+
+      <label>प्रगतशील शेतकरी <br />भाऊसाहेब सानप (आयटी इंजीनियर)</label>
+      <p>
+        <i class="fa fa-phone" style="font-size: 15px"></i> Phone Number:
+        <a href="tel:+917798755784">+91 7798755784</a>
+      </p>
+      <p>
+        <i class="fa fa-envelope" style="font-size: 15px"></i> Email ID:
+        <a href="mailto:bhausahebsanap95@gmail.com">bhausahebsanap95@gmail.com</a>
+      </p>
+      <p>
+        <a aria-label="Chat on WhatsApp" href="https://wa.me/7798755784">
+          <img alt="Chat on WhatsApp" src="wh.png" style="width: 100px" />
+        </a>
+      </p>
+    </header>
+    <hr>
   <!-- Hero Section -->
-  <section class="h-screen bg-cover bg-center flex items-center justify-center" style="background-image: url('https://images.unsplash.com/photo-1587049352841-6cc6ea368f4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80');">
-    <div class="text-center backdrop-blur-sm bg-black/50 p-6 rounded-2xl" data-aos="zoom-in">
-      <h1 class="text-4xl md:text-6xl font-bold mb-4">🚩 जय हनुमान 🚩</h1>
+  <section class="h-screen bg-cover bg-center flex items-center justify-center " style="background-image: url('https://images.unsplash.com/photo-1587049352841-6cc6ea368f4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80');">
+    <div class="text-center backdrop-blur-sm bg-black/50 p-6 rounded-2xl " data-aos="zoom-in">
+      <h1 class="text-4xl md:text-6xl font-bold mb-4 text-red-900">🚩 जय हनुमान 🚩</h1>
       <p class="text-lg md:text-xl mb-6">बळ, भक्ती आणि ज्ञानाचे प्रतीक!</p>
       <a href="#listen" class="bg-red-600 hover:bg-red-700 px-6 py-2 rounded-full text-white text-lg">हनुमान चालीसा ऐका </a>
     </div>
@@ -36,23 +223,23 @@
     </audio>
   </section>
 
-  
+  <hr>
 
   <!-- Gallery Section -->
-  <section class="py-16 px-8 max-w-6xl mx-auto" data-aos="fade-up">
+  <section class="py-16 px-8 max-w-6xl mx-auto "  data-aos="fade-up">
     <h2 class="text-3xl md:text-4xl font-semibold text-center mb-8">📸 हनुमानजी गॅलरी</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-      <img src="https://plus.unsplash.com/premium_photo-1676111258345-d37b0aa20c72?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aGFudW1hbmppfGVufDB8fDB8fHww" alt="हनुमान चित्र 1" class="rounded-2xl shadow-lg hover:scale-105 transition" />
-      <img src="https://plus.unsplash.com/premium_photo-1674898511299-bb6d9f586b8b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aGFudW1hbmppfGVufDB8fDB8fHww" alt="हनुमान चित्र 2" class="rounded-2xl shadow-lg hover:scale-105 transition" />
-      <img src="https://images.unsplash.com/photo-1740727263526-106ea10a355a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGhhbnVtYW5qaXxlbnwwfHwwfHx8MA%3D%3D" alt="हनुमान चित्र 3" class="rounded-2xl shadow-lg hover:scale-105 transition" />
+      <img src="https://plus.unsplash.com/premium_photo-1676111258345-d37b0aa20c72?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aGFudW1hbmppfGVufDB8fDB8fHww" alt="हनुमान चित्र 1" class="rounded-2xl shadow-lg hover:scale-105 transition photohu" />
+      <img src="https://plus.unsplash.com/premium_photo-1674898511299-bb6d9f586b8b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aGFudW1hbmppfGVufDB8fDB8fHww" alt="हनुमान चित्र 2" class="rounded-2xl shadow-lg hover:scale-105 transition photohu" />
+      <img src="https://images.unsplash.com/photo-1740727263526-106ea10a355a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGhhbnVtYW5qaXxlbnwwfHwwfHx8MA%3D%3D" alt="हनुमान चित्र 3" class="rounded-2xl shadow-lg hover:scale-105 transition photohu" />
     </div>
   </section>
-
+<hr>
   <!-- Footer -->
   <footer class="py-6 text-center border-t border-gray-700 text-gray-400">
-    © २०२५ जय हनुमान | भक्तिभावाने बनवलेले | भाऊसाहेब सानप 💖🚩
+    © २०२५  भाऊसाहेब सानप 💖| भक्तिभावाने बनवलेले |जय हनुमान 🚩
   </footer>
-
+</div>
   <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
   <script>
     AOS.init({
